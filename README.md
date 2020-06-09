@@ -1,6 +1,8 @@
 I have attached my Schema which will consist of subdocument. There is parent schema with User,Password,Email,notes and id.
 This notes is a subdocument which will have each note uploaded by the user with id (number to keep track of the note number easily should be passed by front-end developer while making note) and main note will consist of two parts title and discription and these two are not complusory.
 
+IMPORTANT => instead of localhost user enviroment can also be used. There is no compulsion of local host. I have just used it as reference.
+
 <image src="images/ProjectSchema.png" width="700" height="400" float="left">
 
 To view or check all the users available in database USE GET METHODGet to your environment path followed by '/notes' as shown in following link .
