@@ -52,7 +52,7 @@ http://localhost:4000/notes/user/:userId
 <image src="images/deleteallusernote1.png" width="700" height="400" float="left">
 
 After deleting notes will be an empty array as shown: 
-<image src="images/deleteallusernote2.png" width="700" height="400" float="left">
+<image src="images/deleteallusrenote2.png" width="700" height="400" float="left">
   
 To create or add new notes to the users account in subdocument or notes schema USE PATCH METHOD to your environment path followed by '/notes/:userId/:id' as shown in following link.(id for each note should be different as notes are different and to be provided by front-end developer)
 http://localhost:4000/notes/user/:userId/:id
